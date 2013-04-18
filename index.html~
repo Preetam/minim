@@ -201,8 +201,8 @@
 			{/block:Answer}
 			{block:Date}
 			<div class='postdate'>
-			{block:NewDayDate}<p>{DayOfWeek}, {Month} {DayOfMonth}, {Year}{block:IndexPage} -- <a href="{Permalink}">{lang:Permalink}</a>{/block:IndexPage}</p>{/block:NewDayDate}
-			{block:SameDayDate}<p>{DayOfWeek}, {Month} {DayOfMonth}, {Year}{block:IndexPage} -- <a href="{Permalink}">{lang:Permalink}</a>{/block:IndexPage}</p>{/block:SameDayDate}
+			{block:NewDayDate}<p>{DayOfWeek}, {Month} {DayOfMonth}, {Year}{block:IndexPage}-- <a href="{Permalink}">{lang:Permalink}</a>{/block:IndexPage}</p>{/block:NewDayDate}
+			{block:SameDayDate}<p>{DayOfWeek}, {Month} {DayOfMonth}, {Year}{block:IndexPage}-- <a href="{Permalink}">{lang:Permalink}</a>{/block:IndexPage}</p>{/block:SameDayDate}
 			</div>
 			{/block:Date}
 			
